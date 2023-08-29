@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import myfile from "../../src/images/SJ_Resume.docx";
+import myfile from "../../src/images/SJ_Res.docx";
 
 export default class About extends Component {
   render() {
