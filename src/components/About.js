@@ -12,11 +12,10 @@ export default class About extends Component {
         >
           <div className="row">
             <p>
-              I am a front end based developer works mainly on react
-              application. I work for myself and others in
-              designing, coding, deployment and maintenance. I have designed and
-              developed more than 20 front end and 10 back end applications
-              using React, Node, Angular, .Net and Php.
+            As a frontend-focused developer, I primarily work on React applications. I handle various tasks, including design,
+            coding, deployment, and maintenance, both for my own projects and those of clients. Over the course of my career, 
+            I've designed and developed more than 20 frontend applications and 10 backend applications using technologies such as React, 
+            Node.js, Angular, .NET, and PHP.
             </p>
           </div>
           <p>
