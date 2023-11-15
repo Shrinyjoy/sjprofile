@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import reactecom from "../../src/images/reactecom.png"
-import chatio from "../../src/images/chatio.png"
+import game from "../../src/images/game.png"
 import apcockpit from "../../src/images/apcockpits.png"
 import cashcockpit from "../../src/images/cashcockpits.png"
 import calculator from "../../src/images/calculator.png"
@@ -19,7 +19,7 @@ export default class Projects extends Component {
         <div className="card cardfull">
             <img src={apcockpit} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">SDC Apcockpit</h5>
+              <h5 className="card-title">Banking app</h5>
               <p className="card-text">
                 Banking app with react, redux, saga and typescript.
               </p>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
         <div className="card cardfull">
             <img src={cashcockpit} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">SDC Cashcockpit</h5>
+              <h5 className="card-title">Banking app</h5>
               <p className="card-text">
               Banking app with react, redux, saga and typescript.
               </p>
@@ -43,7 +43,7 @@ export default class Projects extends Component {
         <div className="card cardfull">
             <img src={mypro} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">Next.js Project</h5>
+              <h5 className="card-title">Ecommerce</h5>
               <p className="card-text">
                Next.js with react/redux/saga implementation
               </p>
@@ -109,6 +109,19 @@ export default class Projects extends Component {
             </div>
         </div>
         <div className="card cardfull">
+            <img src={game} class="card-img-top" alt="img1" />
+            <div className="card-body">
+              <h5 className="card-title">Game App</h5>
+              <p className="card-text">
+                A Simple javascript game application.
+              </p>
+            
+              <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="button" class="btn btn-secondary btn-sm"><a href="https://shrinyjoy.github.io/colorgame" target="_blank" rel="noreferrer">More</a></button>
+              </div>
+            </div>        
+        </div>
+        {/* <div className="card cardfull">
             <img src={chatio} class="card-img-top" alt="img1" />
             <div className="card-body">
               <h5 className="card-title">Chat IO</h5>
@@ -120,7 +133,7 @@ export default class Projects extends Component {
               <button type="button" class="btn btn-secondary btn-sm"><a href="upon maintenance" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>        
-        </div>
+        </div> */}
         <div className="card cardfull">
             <img src={userproangular} class="card-img-top" alt="img1" />
             <div className="card-body">
