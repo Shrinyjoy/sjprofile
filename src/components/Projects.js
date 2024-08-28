@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import reactecom from "../../src/images/reactecom.png"
 import game from "../../src/images/game.png"
-import apcockpit from "../../src/images/apcockpits.png"
-import cashcockpit from "../../src/images/cashcockpits.png"
+import quiz from "../../src/images/quiz.png"
+import weather from "../../src/images/weather.png"
 import calculator from "../../src/images/calculator.png"
 import todolist from "../../src/images/todolist.png"
 import mypro from "../../src/images/mypro.png"
@@ -17,26 +17,26 @@ export default class Projects extends Component {
         <div className="container" style={{marginTop: "40px"}}>
          <div className="row">
         <div className="card cardfull">
-            <img src={apcockpit} class="card-img-top" alt="img1" />
+            <img src={weather} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">Banking app</h5>
+              <h5 className="card-title">weather app</h5>
               <p className="card-text">
-                Banking app with react, redux, saga and typescript.
+                Weather app with react and API.
               </p>
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#117380"}}><a href="https://abf-fe-dev.azurewebsites.net/" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#117380"}}><a href="https://shrinyjoy.github.io/weatherapp/" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>
         </div>
         <div className="card cardfull">
-            <img src={cashcockpit} class="card-img-top" alt="img1" />
+            <img src={quiz} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">Banking app</h5>
+              <h5 className="card-title">Quiz app</h5>
               <p className="card-text">
-              Banking app with react, redux, saga and typescript.
+              Quiz app with plain javascript.
               </p>
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn-danger btn-sm"><a href="https://abf-fe-dev.azurewebsites.net/" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#5c5aa3"}}><a href="https://shrinyjoy.github.io/quiz-app/" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>
         </div>

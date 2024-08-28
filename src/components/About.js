@@ -12,7 +12,7 @@ export default class About extends Component {
         >
           <div className="row">
             <p>
-            As a frontend-focused developer, I primarily work on React applications. I handle various tasks, including design,
+            As a Web developer, I primarily work on React and other javascript applications. I handle various tasks, including design,
             coding, deployment, and maintenance, both for my own projects and those of clients. Over the course of my career, 
             I've designed and developed more than 20 frontend applications and 10 backend applications using technologies such as React, 
             Node.js, Angular, .NET, and PHP.
