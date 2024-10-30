@@ -5,7 +5,7 @@ import quiz from "../../src/images/quiz.png"
 import weather from "../../src/images/weather.png"
 import calculator from "../../src/images/calculator.png"
 import todolist from "../../src/images/todolist.png"
-import mypro from "../../src/images/mypro.png"
+import mypro from "../../src/images/cgptdep.png"
 import userproangular from "../../src/images/userproangular.png"
 import sjprofile from "../../src/images/sjprofile.png"
 
@@ -19,7 +19,7 @@ export default class Projects extends Component {
         <div className="card cardfull">
             <img src={weather} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">weather app</h5>
+              <h5 className="card-title">Weather app</h5>
               <p className="card-text">
                 Weather app with react and API.
               </p>
@@ -43,12 +43,12 @@ export default class Projects extends Component {
         <div className="card cardfull">
             <img src={mypro} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">Ecommerce</h5>
+              <h5 className="card-title">ChatGPT app</h5>
               <p className="card-text">
-               Next.js with react/redux/saga implementation
+               ChatGPT clone with react API implementation
               </p>
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#ad1fad"}}><a href="https://www.mydubaipro.com/" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#ad1fad"}}><a href="https://fluffy-crostata-8daadb.netlify.app/" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>
         </div>
