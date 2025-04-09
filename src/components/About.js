@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import myfile from "../../src/images/SJ_Resume.docx";
+import myfile from "../../src/images/sjresum.docx";
 
 export default class About extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class About extends Component {
         >
           <div className="row">
             <p>
-            As a Web developer, I primarily work on React and other javascript applications. I handle various tasks, including design,
+            As a Web developer, I primarily work on ML, React and other javascript applications. I handle various tasks, including design,
             coding, deployment, and maintenance, both for my own projects and those of clients. Over the course of my career, 
             I've designed and developed more than 20 frontend applications and 10 backend applications using technologies such as React, 
             Node.js, Angular, .NET, and PHP.
@@ -45,7 +45,7 @@ export default class About extends Component {
             <p>
               <ol style={{ listStyleType: "disc", color:"#bdbdbd"}} >
                   <li>Full stack apps like MERN and MEAN</li>
-                  <li>Forum, Feedback and game apps</li>
+                  <li>ML, Forum, Feedback and game apps</li>
                   <li>CMS projects and web maintenance </li>
                   <li>Updating latest technologies and bootcamp participation</li>
                 </ol>
@@ -69,6 +69,7 @@ export default class About extends Component {
            
             <p class="text-center">
               <ol style={{ listStyleType: "none", color:"#bdbdbd", marginTop:"20px", fontFamily:"'Lucida Handwriting', cursive"}} >
+                  <li>Machine Learning Model with AWS and React (2025)</li>
                   <li>The Ultimate Full Stack Web Development Bootcamp (2022)</li>
                   <li>Build Ecommerce Shopping Cart by React & Redux (2020)</li>
                   <li>Become A Full Stack Web Developer - Beginner to Advanced </li>

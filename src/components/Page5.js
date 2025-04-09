@@ -6,7 +6,7 @@ export default class Page5 extends Component {
       <div className="container page2" style={{paddingTop: "80px"}}>
         <div className="row">
         <div class="center-align" style={{fontSize:"20px"}}>
-        一═デ︻ 𝘍ront End 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 ︻デ═一
+        一═デ︻ 𝘍ull Stack 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 ︻デ═一
         </div>
         </div>
         <div className="row">
@@ -99,7 +99,7 @@ export default class Page5 extends Component {
               </div> 
               <div class="footer-copyright">
                 <div class="container" style={{paddingTop: "50px"}}>
-                  <p class="center-align">© 2023 Shriny</p>
+                  <p class="center-align">© 2025 Shriny</p>
                 </div>
               </div>
             </footer>

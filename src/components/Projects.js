@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import reactecom from "../../src/images/reactecom.png"
+import reactecom from "../../src/images/ecomnew.png"
 import game from "../../src/images/game.png"
 import quiz from "../../src/images/quiz.png"
 import weather from "../../src/images/weather.png"
@@ -29,14 +29,14 @@ export default class Projects extends Component {
             </div>
         </div>
         <div className="card cardfull">
-            <img src={quiz} class="card-img-top" alt="img1" />
+            <img src={reactecom} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">Quiz app</h5>
+              <h5 className="card-title">React Ecommerce</h5>
               <p className="card-text">
-              Quiz app with plain javascript.
+              Shopping cart app with admin and third party libraries.
               </p>
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#5c5aa3"}}><a href="https://shrinyjoy.github.io/quiz-app/" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn-danger btn-sm"><a href="https://ecommerce-app-frontend-brown.vercel.app/" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>
         </div>
@@ -97,14 +97,14 @@ export default class Projects extends Component {
         </div>
         <div className="row">
         <div className="card cardfull">
-            <img src={reactecom} class="card-img-top" alt="img1" />
+            <img src={quiz} class="card-img-top" alt="img1" />
             <div className="card-body">
-              <h5 className="card-title">React Ecommerce</h5>
+              <h5 className="card-title">Quiz app</h5>
               <p className="card-text">
-                Shopping cart app with react redux and node.
+                Quiz app with plain javascript.
               </p>
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn-warning btn-sm"><a href="upon maintenance" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn-secondary btn-sm"><a href="https://shrinyjoy.github.io/quiz-app/" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>
         </div>
@@ -117,23 +117,10 @@ export default class Projects extends Component {
               </p>
             
               <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn-secondary btn-sm"><a href="https://shrinyjoy.github.io/colorgame" target="_blank" rel="noreferrer">More</a></button>
+              <button type="button" class="btn btn btn-sm" style={{backgroundColor:"#ad1fad"}}><a href="https://shrinyjoy.github.io/colorgame" target="_blank" rel="noreferrer">More</a></button>
               </div>
             </div>        
         </div>
-        {/* <div className="card cardfull">
-            <img src={chatio} class="card-img-top" alt="img1" />
-            <div className="card-body">
-              <h5 className="card-title">Chat IO</h5>
-              <p className="card-text">
-                Front end node.js application with socket.io library.
-              </p>
-            
-              <div class="d-grid gap-2 col-6 mx-auto">
-              <button type="button" class="btn btn-secondary btn-sm"><a href="upon maintenance" target="_blank" rel="noreferrer">More</a></button>
-              </div>
-            </div>        
-        </div> */}
         <div className="card cardfull">
             <img src={userproangular} class="card-img-top" alt="img1" />
             <div className="card-body">
